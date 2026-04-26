@@ -1,5 +1,4 @@
-[9:04 pm, 26/04/2026] YOGESH 👊: git clone https://github.com/yogesh5770/dslab
-[9:18 pm, 26/04/2026] PRANAV CLG FRND: import tensorflow as tf
+import tensorflow as tf
 import matplotlib.pyplot as plt
 
 data="images3"
