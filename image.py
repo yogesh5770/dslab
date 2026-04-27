@@ -24,4 +24,4 @@ checkpoint = tf.keras.callbacks.ModelCheckpoint("best_model.h5", monitor='val_ac
 
 h = model.fit(train, validation_data=val, epochs=10, callbacks=[checkpoint])
 
-print("Accuracy:", h.history['accuracy'][-1])
+print("Accuracy:", h.history['accuracy'][-1]*100)
